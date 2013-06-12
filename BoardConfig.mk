@@ -27,7 +27,7 @@
 -include vendor/samsung/jfltevzw/BoardConfigVendor.mk
 
 #In case we ever get 4.7 workiing
-TARGET_GCC_VERSION := 4.6
+#TARGET_GCC_VERSION := 4.6
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jfltevzw
