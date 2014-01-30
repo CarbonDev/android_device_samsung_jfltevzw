@@ -1,10 +1,7 @@
 $(call inherit-product, device/samsung/jfltevzw/full_jfltevzw.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
-
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Carbon stuff.
+$(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
   PRODUCT_NAME=jfltevzw \
@@ -14,6 +11,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-verizon
 
-PRODUCT_NAME := cm_jfltevzw
+PRODUCT_NAME := carbon_jfltevzw
 PRODUCT_DEVICE := jfltevzw
 
