@@ -12,10 +12,8 @@
     "revision": "cm-11.0"
   },
   {
-    "remote": "cm",
-    "repository": "CyanogenMod/android_device_samsung_jf-common",
-    "target_path": "device/samsung/jf-common",
-    "revision": "cm-11.0"
+    "repository": "CarbonDev/android_device_samsung_jf-common",
+    "target_path": "device/samsung/jf-common"
   },
   {
     "remote": "cm",
